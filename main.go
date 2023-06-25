@@ -38,7 +38,7 @@ func main() {
 		commits := rand.Intn(max)
 		log.Printf("Committing %d times on %s", commits, d)
 
-		for i := 0; i < commits; i++ {
+		for i := 1; i < commits; i++ {
 			cmd := exec.Command(
 				"git",
 				"commit",
