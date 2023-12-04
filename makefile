@@ -5,5 +5,5 @@ help: ## Show this help
 
 .PHONY: filler
 filler: ## Fill your repo with commits
-	@go run main.go -max=10
+	@go run main.go -max=10 -skip-weekend=false
 
